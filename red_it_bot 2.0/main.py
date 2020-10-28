@@ -10,11 +10,11 @@ from io import BytesIO
 
 
 
-TOKEN = "1306853005:AAHhQOKeGVQOWpKPspDWCk8xXfhvGxVRP9E"
+TOKEN = "YOUR TOKEN HERE"
 bot = telebot.TeleBot(TOKEN)
 
-reddit = praw.Reddit(client_id="HxaPmKB-7p8kdA", client_secret="pP0SfHk38KsqPwTCONU7esS9-cE", username="ItsMeEnx",
-                     password="bh100a789789REDDİT", user_agent="helloworld")
+reddit = praw.Reddit(client_id="REDDIT CLIENT ID", client_secret="REDDIT CLIENT SECRET", username="REDDIT USERNAME",
+                     password="REDDIT PASSWORD", user_agent="helloworld")
 
 
 def extract_arg(arg):
