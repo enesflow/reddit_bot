@@ -1,0 +1,3 @@
+praw
+pytelegrambotapi
+pillow
